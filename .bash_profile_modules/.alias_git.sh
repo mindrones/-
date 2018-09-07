@@ -57,3 +57,8 @@ alias gpr='git pull --rebase'
 # remotes
 
 alias gr='git remote -v'
+
+# cloning
+
+alias cl='git clone'
+alias cl1='git clone --depth=1'
