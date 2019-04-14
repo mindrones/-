@@ -12,11 +12,6 @@ alias l='git ls-tree --name-only -r HEAD'
 
 alias lo='git log --name-status'
 
-# branches
-
-alias nb='git checkout -b'
-alias cko='git checkout'
-
 # diff
 
 # working dir against stage
@@ -26,7 +21,7 @@ alias dws='git diff'
 # working dir against last commit
 alias dwc='git diff HEAD'
 
-# index against last commit
+# stage against last commit
 alias dsc='git diff --cached'
 
 # diff between the stash and the commit it is based on
@@ -39,24 +34,50 @@ alias dst='git diff stash@{0}^!'
 # git diff --name-only HEAD~10 HEAD~5
 alias dno='git diff --name-only'
 
-# staging
+# branches
+
+alias gc='git checkout'
+alias gcb='git checkout -b'
+
+# working area
+
+alias gc--='git checkout --'
+alias gs='git stash'
+alias gsp='git stash pop'
+
+# staging area
 
 alias p='git add --patch'
 #alias +='git add' # dont use this it would add all files to the stage!
 
-# committing
+# history
+
+## committing
 
 alias c='git commit'
 alias ca='git commit -a'
 alias cpk='git cherry-pick'
 
-# pulling
+## merging/rebasing
 
-alias gpr='git pull --rebase'
+alias gm='git merge'
+alias gri='git rebase -i'
 
-# remotes
+# collaboration
+
+## push/pulling
+
+alias gpush='git push'
+alias gpushf='git push -f'
+alias gpull='git pull'
+alias gpullr='git pull --rebase'
+
+## remotes
 
 alias gr='git remote -v'
+alias grau='git remote add upstream'
+alias gfu='git fetch upstream'
+alias gmum='git merge upstream/master'
 
 # cloning
 
