@@ -76,6 +76,7 @@ alias gpullr='git pull --rebase'
 
 alias gr='git remote -v'
 alias grau='git remote add upstream'
+alias gf='git fetch'
 alias gfu='git fetch upstream'
 alias gmum='git merge upstream/master'
 
