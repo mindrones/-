@@ -41,6 +41,7 @@ alias gcb='git checkout -b'
 
 # working area
 
+alias gcm='git checkout master'
 alias gc--='git checkout --'
 alias gs='git stash'
 alias gsp='git stash pop'
