@@ -38,6 +38,7 @@ alias dno='git diff --name-only'
 
 alias gc='git checkout'
 alias gcb='git checkout -b'
+alias gb='git branch'
 
 # working area
 
