@@ -44,7 +44,7 @@ alias gb='git branch'
 
 alias gcm='git checkout master'
 alias gc--='git checkout --'
-alias gs='git stash'
+alias gs='git stash push' # this lets us add a message: gs fixing foobar
 alias gsp='git stash pop'
 
 # staging area
@@ -64,6 +64,7 @@ alias cpk='git cherry-pick'
 
 alias gm='git merge'
 alias gri='git rebase -i'
+alias grm='git rebase master'
 
 # collaboration
 

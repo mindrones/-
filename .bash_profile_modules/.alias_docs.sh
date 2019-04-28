@@ -4,7 +4,7 @@ terminal="~/Dev/terminal"
 modules="~/.bash_profile_modules"
 
 alias sd-git-aliases="cat $modules/.alias_git.sh"
-
+alias sd-git-upstream="cat $terminal/git/upstream.md"
 alias sd-compress="cat $terminal/compress.md"
 alias sd-diff="cat $terminal/diff.md"
 alias sd-dupes="cat $terminal/dupes.md"
