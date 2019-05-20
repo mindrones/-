@@ -50,7 +50,9 @@ alias gsp='git stash pop'
 # staging area
 
 alias p='git add --patch'
-#alias +='git add' # dont use this it would add all files to the stage!
+alias g+='git add'
+alias g-="giv rm"
+alias g@="git mv"
 
 # history
 
