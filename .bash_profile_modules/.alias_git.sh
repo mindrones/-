@@ -43,6 +43,7 @@ alias gb='git branch'
 # working area
 
 alias gcm='git checkout master'
+alias gcd='git checkout dev'
 alias gc--='git checkout --'
 alias gs='git stash push' # this lets us add a message: gs fixing foobar
 alias gsp='git stash pop'
