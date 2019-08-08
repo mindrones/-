@@ -4,3 +4,4 @@ source ~/.bash_profile_modules/.alias_docs.sh
 source ~/.bash_profile_modules/.alias_git.sh
 source ~/.bash_profile_modules/.alias_npm.sh
 source ~/.bash_profile_modules/.completion.sh
+source ~/.bash_profile_modules/.__private.sh
