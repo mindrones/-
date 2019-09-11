@@ -69,6 +69,7 @@ alias cpk='git cherry-pick'
 alias gm='git merge'
 alias gri='git rebase -i'
 alias grm='git rebase master'
+alias grd='git rebase dev'
 
 # collaboration
 
