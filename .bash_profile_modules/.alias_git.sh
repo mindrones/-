@@ -76,8 +76,8 @@ alias grm='git rebase master'
 
 alias gpush='git push'
 alias gpushf='git push -f'
-alias gpull='git pull'
-alias gpullr='git pull --rebase'
+alias pll='git pull'
+alias plr='git pull --rebase'
 
 ## remotes
 

@@ -1,3 +1,7 @@
+#compress
+
+tar -cvz -f archive.tar.gz file1 directory1 file2 directory2
+
 # extract
 
-tar -xvzf file.tar.gz
+tar -vxz -f archive.tar.gz
