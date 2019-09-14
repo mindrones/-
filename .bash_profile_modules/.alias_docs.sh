@@ -3,6 +3,7 @@
 terminal="~/Dev/terminal"
 modules="~/.bash_profile_modules"
 
+alias ed-git-aliases="nano $modules/.alias_git.sh && source $modules/.alias_git.sh"
 alias sd-git-aliases="less $modules/.alias_git.sh"
 alias sd-git-upstream="less $terminal/git/upstream.md"
 alias sd-compress="less $terminal/compress.md"
