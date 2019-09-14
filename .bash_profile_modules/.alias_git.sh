@@ -46,7 +46,8 @@ alias gcd='git checkout dev'
 alias gcm='git checkout master'
 alias gcs='git checkout staging'
 alias gc--='git checkout --'
-alias gs='git stash push -m' # this lets us add a message: gs something or gs "something something"
+alias gs='git stash push'
+alias gsm='git stash push -m' # this lets us add a message: gs something or gs "something something"
 alias gsp='git stash pop'
 alias gsl='git stash list'
 
