@@ -55,7 +55,7 @@ alias gsl='git stash list'
 
 alias p='git add --patch'
 alias g+='git add'
-alias g-="giv rm"
+alias g-="git rm"
 alias g@="git mv"
 
 # history
