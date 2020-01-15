@@ -1,6 +1,6 @@
 # set the upstream repo
 
-git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git remote add upstream git@github.com:user/repo.git
 
 (src: https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 
