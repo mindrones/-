@@ -42,14 +42,15 @@ alias gb='git branch'
 
 # working area
 
+alias gc--='git checkout --'
 alias gcd='git checkout dev'
 alias gcm='git checkout master'
+alias gcr='git checkout release'
 alias gcs='git checkout staging'
-alias gc--='git checkout --'
 alias gs='git stash push'
+alias gsl='git stash list'
 alias gsm='git stash push -m' # this lets us add a message: gs something or gs "something something"
 alias gsp='git stash pop'
-alias gsl='git stash list'
 
 # staging area
 

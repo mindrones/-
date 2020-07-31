@@ -1,0 +1,56 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+    "editor.accessibilitySupport": "off",
+    "editor.codeActionsOnSave": null,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace, Monaco, 'Courier New'",
+    "editor.fontSize": 14,
+    "editor.insertSpaces": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.side": "left",
+    "editor.occurrencesHighlight": false,
+    "editor.padding.top": 5,
+    "editor.renderFinalNewline": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        80
+    ],
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "emmet.excludeLanguages": [
+        "markdown"
+    ],
+    "eslint.validate": [
+        "svelte"
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.associations": {},
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "sortJSON.contextMenu": {
+        "sortJSON": true
+    },
+    "telemetry.enableTelemetry": false,
+    "textmarker.delayForRefreshingHighlight": 100,
+    "textmarker.enableIgnoreCase": true,
+    "textmarker.enableTelemetry": false,
+    "textmarker.enableWholeMatch": true,
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.enableExperiments": false,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "workbench.sideBar.location": "left",
+    "workbench.tree.indent": 12,
+    "workbench.view.experimental.allowMovingToNewContainer": true
+}
