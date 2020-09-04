@@ -1,2 +1,5 @@
-.__private.sh
-.DS_Store
+*
+!.bash_profile
+!.bash_profile_modules
+!Dev/terminal
+!Library/Application Support/Code/User
