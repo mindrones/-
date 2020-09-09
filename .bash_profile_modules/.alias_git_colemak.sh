@@ -64,7 +64,7 @@ alias g@="git mv"
 ## committing
 
 alias c='git commit'
-alias ca='git commit -a'
+alias ca='git commit --amend'
 alias cpk='git cherry-pick'
 
 ## merging/rebasing
