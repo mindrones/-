@@ -28,7 +28,7 @@ alias dsc='git diff --cached'
 alias dst='git diff stash@{0}^!'
 
 # list of files changed between two commits
-# SHA to identify the commits
+# SHA to identify the commits
 # git diff --name-only SHA1 SHA2
 # differences between 10th latest -> 5th latest commits:
 # git diff --name-only HEAD~10 HEAD~5
@@ -73,6 +73,8 @@ alias gm='git merge'
 alias gri='git rebase -i'
 alias grm='git rebase master'
 alias grd='git rebase dev'
+alias grc='git rebase --continue'
+alias gra='git rebase --abort'
 
 # collaboration
 
@@ -85,7 +87,7 @@ alias plr='git pull --rebase'
 
 ## remotes
 
-alias gr='git remote -v'
+alias grv='git remote -v'
 alias grau='git remote add upstream'
 alias gf='git fetch'
 alias gfp='git fetch --prune'
