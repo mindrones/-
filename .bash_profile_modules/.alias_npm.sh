@@ -5,6 +5,7 @@
 alias cpj='cat package.json'
 alias no='npm outdated'
 alias nh='npm home'
+alias ni='npm install'
 alias nis='npm install -S'
 alias nid='npm install -D'
 alias nr='npm run'
