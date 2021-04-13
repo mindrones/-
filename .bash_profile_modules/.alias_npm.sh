@@ -3,6 +3,7 @@
 # dev
 
 alias cpj='cat package.json'
+alias n?='npm info'
 alias no='npm outdated'
 alias nh='npm home'
 alias ni='npm install'
